@@ -3,12 +3,12 @@
         "version": "1.0.0",
         "compatability": ["1.0.1"],
         "author": "Sully",
-        "packageUrl": "https://github.com/alexanderpharwood/sully-templates/raw/master/packages/bare.zip"
+        "packageUrl": "https://github.com/alexanderpharwood/sully-templates/blob/master/packages/bare.zip?raw=true"
     },
     "bootstrap": {
         "version": "1.0.0",
         "compatability": ["1.0.1"],
         "author": "Sully / Start Bootstrap",
-        "packageUrl": "https://github.com/alexanderpharwood/sully-templates/raw/master/packages/bootstrap.zip"
+        "packageUrl": "https://github.com/alexanderpharwood/sully-templates/blob/master/packages/bootstrap.zip?raw=true"
     }
 }
