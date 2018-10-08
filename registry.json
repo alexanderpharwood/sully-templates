@@ -1,6 +1,14 @@
 {
-    "default": {
+    "bare": {
         "version": "1.0.0",
-        "url": ""
+        "compatability": ["1.0.1"],
+        "author": "Sully",
+        "packageUrl": "https://github.com/alexanderpharwood/sully-templates/raw/master/packages/bare-1.0.0.zip"
+    },
+    "bootstrap": {
+        "version": "1.0.0",
+        "compatability": ["1.0.1"],
+        "author": "Sully / Start Bootstrap",
+        "packageUrl": "https://github.com/alexanderpharwood/sully-templates/raw/master/packages/bootstrap-1.0.0.zip"
     }
 }
