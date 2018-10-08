@@ -1,0 +1,47 @@
+{
+    "app": {
+        "name": "Sully - Bootstrap template",
+        "version": "1.0.0"
+    },
+    "build": {
+        "output": "app/build/app.js",
+        "scripts": [
+            "scripts/entry.js"
+        ],
+        "router": "router.js",
+        "controllers": {
+            "index": "controllers/IndexController.js",
+            "error": "controllers/ErrorController.js"
+        },
+        "views": {
+            "header": "views/common/header.html",
+            "404": "views/404.html",
+            "403": "views/403.html",
+            "index": "views/index.html",
+            "one": "views/one.html",
+            "two": "views/two.html"
+        },
+        "middleware": {
+            "example": "middleware/ExampleMiddleware.js"
+        }
+    },
+    "serve": {
+        "staticPaths": [
+            "app"
+        ],
+        "port": 3000
+    },
+    "autobuilder": {
+        "path": "",
+        "ignore": [
+            "app/build"
+        ]
+    },
+    "release": {
+        "version": "1.0.0",
+        "include": [
+            "index.html",
+            "app"
+        ]
+    }
+}
